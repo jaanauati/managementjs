@@ -1,0 +1,34 @@
+{
+  "name": "management.js",
+  "version": "0.0.1",
+  "description": "Simple engine to inject management commands into your node projects.",
+  "keywords": [
+    "management",
+    "django",
+    "command"
+  ],
+  "author": {
+    "name": "Jonatan Alexis Anauati",
+    "email": "jaanauti@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janauati/management.js.git"
+  },
+  "devDependencies": {
+    "mocha": "1.12.1"
+  },
+  "main": "index",
+  "dependencies": {
+    "commander":"2.0.0"
+  },
+  "engines": {
+    "node": "0.8.19",
+    "npm": "1.2.10"
+  },
+  "readmeFilename": "README.rst",
+  "bugs": {
+    "url": "https://github.com/janauati/management.js/issues"
+  },
+  "_id": "management.js@0.0.1"
+}
