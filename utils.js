@@ -1,3 +1,4 @@
+
 exports.resolveCommandName = function(rawArgs) {
   if (rawArgs && rawArgs instanceof Array) {
    return rawArgs[0];
@@ -29,9 +30,7 @@ exports.loadCommand = function(commandPath) {
   try {
     return require(commandPath);
   } catch(e) { 
-    if (e.code == 'MODULE_NOT_FOUND')
-      return undefined;
-    throw e;
+
   }
 };
 
