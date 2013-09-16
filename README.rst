@@ -18,12 +18,13 @@ MANAGEMENT.JS
   USAGE:
 
     1. Once the setup is done, you can add your first management command:
-      management/clean_cache.js --------
+      management/clean_cache.js:
 
       exports.enter = function() {  }
+      
       exports.execute = function() { console.log('Cleaning cache...'); }
+      
       exports.exit = function() { }
-      ------------------------------------
 
     2. Invoke your commands:
       node app.js clean_cache
