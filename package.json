@@ -8,12 +8,12 @@
     "command"
   ],
   "author": {
-    "name": "Jonatan Alexis Anauati",
+    "name": "jonatan alexis anauati",
     "email": "jaanauti@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/janauati/management.js.git"
+    "url": "git+https://github.com/jaanauati/managementjs.git"
   },
   "devDependencies": {
     "mocha": "1.12.1"
