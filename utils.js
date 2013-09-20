@@ -29,9 +29,7 @@ exports.resolveCommandModule = function(cmdName, settings) {
 exports.loadCommand = function(commandPath) {
   try {
     return require(commandPath);
-  } catch(e) { 
-
-  }
+  } catch(e) {  }
 };
 
 
@@ -39,7 +37,7 @@ exports.resolveArguments = function(module, rawArgs) {
   if (module && module.options) {
     var parser = require('commander');
     parser = module.options(parser);
-    return parser.parse(rawArgs);
+    return parser.parse(['',''].concat(rawArgs));
   }
 };
 
