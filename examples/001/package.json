@@ -1,8 +1,8 @@
 {
   "name": "test0001",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
-    "managementjs":"git+ssh://git@github.com:jaanauati/managementjs.git"
+    "managementjs":"0.0.2"
   }
 }
