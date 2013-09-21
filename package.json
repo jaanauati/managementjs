@@ -1,6 +1,6 @@
 {
   "name": "managementjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple engine to inject management commands into your node projects.",
   "keywords": [
     "management",
