@@ -1,6 +1,6 @@
 {
   "name": "managementjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple engine to inject management commands into your node projects.",
   "keywords": [
     "management",
@@ -28,7 +28,7 @@
   },
   "readmeFilename": "README.rst",
   "bugs": {
-    "url": "https://github.com/janauati/management.js/issues"
+    "url": "https://github.com/jaanauati/managementjs/issues"
   },
   "_id": "managementjs@0.0.1"
 }
